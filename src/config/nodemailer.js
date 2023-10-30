@@ -21,7 +21,7 @@ const sendMailToUser = async(userMail,token)=>{
     html: `
     <h1>Sistema de gestión (FLORCAN 🧑‍💻)</h1>
     <hr>
-    <a href="http://localhost:3000/api/confirmar/${token}">Clic para confirmar tu cuenta</a>
+    <a href="https://florcan-frontend.netlify.app/confirmar/${token}">Clic para confirmar tu cuenta</a>
     <hr>
     <footer>Bienvenido!!</footer>
     `
